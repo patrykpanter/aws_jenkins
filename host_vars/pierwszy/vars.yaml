@@ -1,0 +1,11 @@
+package: "nginx"
+
+usernames:
+  - username: aaaa
+    key: ["aaaa", "bbbb", "cccc"]
+  - username: bbbb
+    key: ["aaaa"]
+  - username: cccc
+    key: ["aaaa", "bbbb"]
+  - username: dddd
+    key: ["aaaa"]

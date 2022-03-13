@@ -1,0 +1,22 @@
+# playbook.yml
+- hosts: pierwszy
+  become: true
+
+  roles:
+    # - install
+    - users
+    - users_with_keys
+    - install_jenkins
+
+# JSON FORMAT
+# [
+#   {
+#       "hosts":"pierwszy",
+#       "become":true,
+#       "roles":[
+#         "users",
+#         "users_with_keys",
+#         "install_jenkins"
+#       ]
+#   }
+# ]
